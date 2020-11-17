@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns:  minmax(160px, 20%) auto ;
+    width: 100%;
+    margin: 0;
+}
+
+#navbar {
+    display: grid;
+    border-right: solid thin lightgray;
+    grid-template-columns: repeat(max-content);
+    
+    
+}
+.nav-link {
+    margin: 0;
+    padding: 1rem 2rem;
+    border-top: solid thin lightgray;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+#main-doc{
+
+}
